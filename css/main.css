@@ -7,16 +7,28 @@ body {
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
-  background-position: top, center;
-  background-size: 500px, 500px;
+
+  width: 99%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+
+
 }
 
 h1 {
   font-weight: bolder;
   text-align: center;
 }
- .logo {
-   background-color: blue;
-   text-decoration-color: black;
+.logo {
+  background-color: white;
+  border-radius: 40em;
+  height: 200px;
+  width: 250px;
+  border-color: white;
+  border-style: dotted;
+  border-width: medium;
+  margin-top: -70px;
+  margin-left: 100px;
+
  }
