@@ -8,7 +8,6 @@
 
 .top_nav li {
     float: left;
-    margin-left: 6px;
 }
 
 .top_nav li a {
@@ -18,6 +17,7 @@
     padding: 16px;
     text-decoration: none;
     font-size: 2em;
+    font-family: cursive;
 }
 
 .top_nav li a:hover {

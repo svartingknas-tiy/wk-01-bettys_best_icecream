@@ -4,8 +4,16 @@ body {
     background-attachment: fixed;
     background-color: lightblue;
     background-size: cover;
+
 }
 
+.title {
+  font-family: fantasy;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+}
 .banner {
 
   width: 99%;
@@ -15,16 +23,26 @@ body {
 
 
 }
-
+main {
+  height: 100%;
+}
 h1 {
   font-weight: bolder;
   text-align: center;
 }
+
+h3, h5{
+  font-family: cursive;
+  font-style: oblique;
+  text-align: center;
+  padding-left: 250px
+}
+
 .logo {
   background-color: white;
   border-radius: 40em;
-  height: 200px;
-  width: 250px;
+  height: 150px;
+  width: 200px;
   border-color: white;
   border-style: dotted;
   border-width: medium;
@@ -32,40 +50,28 @@ h1 {
   margin-left: 100px;
  }
 
- .top_nav ul li li{
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #333333;
+#about, #contact, #news{
+  font-family: fantasy;
+  text-align: center;
+  color: currentColor;
+  word-wrap: normal;
+  margin-top: 100;
+  background-color: lightblue;
+  padding-left: 250px;
 
-       float: left;
-       margin-left: 6px;
-
-
- }
-
-/* .top_nav li {
+}
 
 
 
-     float: left;
-     margin-left: 6px;
- }
-*/
- .top_nav li a {
-     display: inline;
-     color: white;
-     text-align: center;
-     padding: 16px;
-     text-decoration: none;
-     font-size: 2em;
- }
 
- .top_nav li a:hover {
-     background-color: #111111;
- }
 
-.sidebar{
 
+
+footer {
+  float: right;
+  position: sticky;
+  background-color: lightblue;
+  text-align: top;
+  text-shadow: black;
+  font-family: cursive;
 }
