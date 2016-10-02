@@ -30,5 +30,42 @@ h1 {
   border-width: medium;
   margin-top: -70px;
   margin-left: 100px;
+ }
+
+ .top_nav ul li li{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333333;
+
+       float: left;
+       margin-left: 6px;
+
 
  }
+
+/* .top_nav li {
+
+
+
+     float: left;
+     margin-left: 6px;
+ }
+*/
+ .top_nav li a {
+     display: inline;
+     color: white;
+     text-align: center;
+     padding: 16px;
+     text-decoration: none;
+     font-size: 2em;
+ }
+
+ .top_nav li a:hover {
+     background-color: #111111;
+ }
+
+.sidebar{
+
+}
