@@ -39,10 +39,23 @@ body {
   }
 
 .content {
-  width: 500px;
+  width: 600px;
   float: left;
   padding-left: 30px;
+  padding-right: 100px;
   text-align: center;
+
+}
+
+.right{
+  background-color: lightblue;
+  float: left;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding-left: 10px;
+
+
+
 }
 
 footer {
