@@ -1,9 +1,11 @@
 .top_nav ul {
     list-style-type: none;
     margin: 0;
+    margin-bottom: 50px;
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+
 }
 
 .top_nav li {

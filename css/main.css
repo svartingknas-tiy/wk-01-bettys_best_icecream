@@ -5,29 +5,42 @@
   }
 
 body {
-    background-image: url("../images/background.jpg");
+    margin: 0;
+    padding:0;
+    /*background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: lightblue;
-    background-size: cover;
+    background-size: cover;*/
+
     }
 
-.title {
-  font-family: fantasy;
-  font-weight: bolder;
-  font-size: 24px;
+.title  {
+  color: white;
+  font: bold 48px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
   text-align: center;
-  text-decoration: underline;
   }
 
 .banner {
 
-  width: 99%;
+  width: 100%;
   height: auto;
   margin: 0px;
   padding: 0px;
+  position: relative;
+  background: linear-gradient(bottom, rgba(0, 0, 0, 1);), rgba(0,0,0,4)
+  back
   }
 
+/*
 .logo {
   background-color: white;
   border-radius: 40em;
@@ -36,20 +49,26 @@ body {
   border-color: white;
   border-style: dotted;
   border-width: medium;
+  position: absolute;
+  float: left;
+
+  /*
   margin-top: -70px;
   margin-left: 100px;
-  }
+  }*/
 
 .content {
   width: 500px;
   float: left;
+  padding-top: 50px;
   padding-left: 30px;
   padding-right: 100px;
   text-align: center;
+  background-color: white;
   }
 
 .right{
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   float: left;
   border-radius: 30px;
   margin-top: 30px;
@@ -59,11 +78,20 @@ body {
 
 footer {
   clear: left;
-  float: right;
   font-style: italic;
-  background-color: rgb(255,173,8);
+  font-size: 20px;
   padding-left: 10px;
+  padding-top: 20px;
   padding-right: 10px;
   border-radius: 20px;
   margin-right: 30px;
+  margin-top: -30px;
+  }
+
+  #grad {
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, red, yellow); /* Standard syntax */
   }
